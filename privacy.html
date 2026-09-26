@@ -4,6 +4,8 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Quibo — Privacy Policy</title>
 <link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 </head>
 <body>
 <header><a class="wordmark" href="index.html">quibo.</a><nav><a href="support.html">Support</a><a href="terms.html">Terms</a></nav></header>
@@ -19,20 +21,21 @@
   <li>Saved deals store listing details such as title, price and photos — never the seller's identity.</li>
   <li>A small copy of your top deals for the Home Screen widget.</li>
 </ul>
-<p>This data lives only on your iPhone. Deleting the app deletes it.</p>
+<p>This data lives only on your iPhone (except for instant alerts, below). Deleting the app deletes it.</p>
 
 <h2>What our server receives</h2>
 <ul>
-  <li><strong>Deal requests.</strong> The app asks our server for the current deal feed. The request contains no personal information.</li>
+  <li><strong>Deal requests.</strong> The app asks our server for the current deal feed. If you have a plan, the request includes the signed subscription record Apple gives the app (product, transaction number and expiry date), so our server can check it's genuine and show you member deals. It contains no name, email or payment details, and we don't store it or link it to anything else.</li>
   <li><strong>Scan searches.</strong> When you use Scan, the text you type is sent to our server to search listings. Results are cached for about 20 minutes and are not linked to you.</li>
+  <li><strong>Instant alerts.</strong> If you have a plan and allow notifications, the app sends our server your device's push token (a random identifier Apple issues for sending notifications to this app), your alert settings and when your plan renews, so we can notify you the moment a matching deal is found. This isn't linked to your name, email or Apple ID. It's deleted when you cancel your plan or turn notifications off, when Apple tells us the app was removed, or after 30 days without the app checking in.</li>
   <li><strong>IP address.</strong> Like any web server, ours sees the network address a request comes from. We use it only to prevent abuse (rate limiting), keep it in memory for about an hour, and don't store it or link it to anything else.</li>
 </ul>
 
 <h2>Purchases</h2>
-<p>Subscriptions are sold and processed by Apple. We never see your name, email or payment details. The app checks your subscription status with Apple on your device.</p>
+<p>Subscriptions are sold and processed by Apple. We never see your name, email or payment details. The app checks your subscription with Apple on your device, and sends Apple's signed subscription record to our server as described above.</p>
 
 <h2>Notifications</h2>
-<p>If you allow notifications, deal alerts and trial reminders are created on your device. We don't use a push-notification service or collect a device token.</p>
+<p>If you allow notifications, trial reminders are created on your device. Deal alerts are sent by our server through Apple Push Notification service (see "Instant alerts" above), or created on your device when instant alerts aren't available.</p>
 
 <h2>Links to other sites</h2>
 <p>Buttons such as “Buy on eBay” and “Check other markets” open eBay, Mercari, Facebook Marketplace and other third-party sites or apps. Those services have their own privacy policies. Some eBay links are affiliate links, which lets eBay know a purchase came from Quibo; eBay may use cookies to do this.</p>
